@@ -1,38 +1,158 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-size: cover;
+  background-attachment: fixed;
   color: white;
+  padding: 20px 0;
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
 }
 
-.App-link {
-  color: #61dafb;
+.header-content img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: fadeIn 2s ease-in-out;
 }
 
-@keyframes App-logo-spin {
+.header-content h1 {
+  margin: 10px 0 5px 0;
+  animation: slideIn 2s ease-in-out;
+}
+
+.header-content p {
+  margin: 5px 0;
+  animation: slideIn 2s ease-in-out;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+main {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  animation: slideIn 2s ease-in-out;
+}
+
+section h3 {
+  color: #4CAF50;
+  margin-bottom: 5px;
+  animation: slideIn 2s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: white;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s ease-in-out;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#topButton {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.certificates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.certificate {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: left;
+  max-width: 300px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.certificate img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.certificate-details h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.certificate-details p {
+  margin: 0;
+}
+
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+      opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+      opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
   }
 }
