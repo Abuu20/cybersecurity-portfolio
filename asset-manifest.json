@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cybersecurity-portfolio/static/css/main.ef51d63e.css",
+    "main.js": "/cybersecurity-portfolio/static/js/main.dd8f2d60.js",
+    "static/js/453.9fc99a8f.chunk.js": "/cybersecurity-portfolio/static/js/453.9fc99a8f.chunk.js",
+    "static/media/hack.jpg": "/cybersecurity-portfolio/static/media/hack.a28e546e871319d9bed0.jpg",
+    "static/media/ccn.jpg": "/cybersecurity-portfolio/static/media/ccn.e3cc67680df1dbad6bb8.jpg",
+    "static/media/boyy.jpeg": "/cybersecurity-portfolio/static/media/boyy.ed9fa5d8b0bd14604c7a.jpeg",
+    "static/media/comptia.jpg": "/cybersecurity-portfolio/static/media/comptia.f580309be96a8156c3f8.jpg",
+    "static/media/ceh.jpg": "/cybersecurity-portfolio/static/media/ceh.c007dd48e750ed965027.jpg",
+    "static/media/cism.jpg": "/cybersecurity-portfolio/static/media/cism.cc74379a0d9ec79064aa.jpg",
+    "static/media/cissp.jpg": "/cybersecurity-portfolio/static/media/cissp.e9c79658d0e06c645d81.jpg",
+    "index.html": "/cybersecurity-portfolio/index.html",
+    "main.ef51d63e.css.map": "/cybersecurity-portfolio/static/css/main.ef51d63e.css.map",
+    "main.dd8f2d60.js.map": "/cybersecurity-portfolio/static/js/main.dd8f2d60.js.map",
+    "453.9fc99a8f.chunk.js.map": "/cybersecurity-portfolio/static/js/453.9fc99a8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef51d63e.css",
+    "static/js/main.dd8f2d60.js"
+  ]
+}
